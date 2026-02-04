@@ -10,14 +10,14 @@ data = {
 
 df = pd.DataFrame(data)
 
-#New row added for v2
+#New row added for v1
 new_row_loc = {'Name' : 'Pannu', 'Age' : '88', 'City' : 'Beas'}
 df.loc[len(df.index)] = new_row_loc
 
 
 #New row added for v2
-# new_row_loc = {'Name' : 'Pannu', 'Age' : '88', 'City' : 'Beas'}
-# df.loc[len(df.index)] = new_row_loc
+new_row_loc = {'Name' : 'Santoshi Maa', 'Age' : '12', 'City' : 'Goa'}
+df.loc[len(df.index)] = new_row_loc
 
 
 data_dir = 'data'
